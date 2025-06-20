@@ -3,6 +3,7 @@
   flex-grow: 1;
   background-image: url('/csphoto.png');
   background-size: cover;
+  background-repeat: space;
   justify-content: center;
   flex-direction: column;
   gap: 20px;

@@ -20,7 +20,7 @@ function FirstSectionLanding() {
                     target="_blank" 
                     rel="noopener noreferrer"
                     >
-                    <button className="sign-in button-landing">
+                    <button className="download button-landing">
                         Descargar
                     </button>
                     </a>
