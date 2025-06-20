@@ -66,6 +66,7 @@ nav {
 .download {
   background-color: var(--button-background-color);
   border: 0px;
+  font-size: medium;
   font-weight: 600;
   padding: 10px 15px;
   align-self: center;
@@ -102,7 +103,6 @@ nav {
 }
 
 footer {
-  border-top: 5px solid var(--button-background-color);
   padding: 20px 0;
   background-color: var(--footer-background-color);
   color: var(--text-color);
@@ -141,6 +141,12 @@ ul li {
 }
 
 .help {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.help div {
   display: flex;
   flex-direction: column;
   gap: 10px;

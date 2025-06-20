@@ -9,6 +9,7 @@ function FooterLandingPage() {
     }
     
     const linkRepo = "https://github.com/Taielmolina01/cs-2d-grupo-5-2025c1";
+    const linkOriginalGame = "https://cs2d.com/";
 
     return (
         <footer className="footer-landing">
@@ -44,6 +45,13 @@ function FooterLandingPage() {
                         target="_blank"
                     >
                         Código
+                    </a>
+                                        <a 
+                        href={linkOriginalGame}
+                        className="footer-link"
+                        target="_blank"
+                    >
+                        Juego original
                     </a>
                 </div>
             </div>
