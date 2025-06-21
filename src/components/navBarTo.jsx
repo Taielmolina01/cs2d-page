@@ -5,7 +5,7 @@ function NavBarTo( { link } ) {
         <div className="game-name">
             <Link to={link}>
                 <span>
-                    CS2D
+                    CS2D Remake
                 </span>
             </Link>
         </div>
