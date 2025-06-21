@@ -15,14 +15,14 @@ function FooterLandingPage() {
         <footer className="footer-landing">
             <div className="about-us">
                 <h2>
-                    CS2D
+                    Sobre nosotros
                 </h2>
                 <div>
                     <p>
                         Este fue nuestro trabajo práctico grupal para la materia de Taller de Programación I catedra Veiga de la Facultad de Ingeniería de la UBA
                     </p>
                     <h3>
-                        Miembros
+                        Integrantes
                     </h3>
                     <ul>
                         {Object.keys(members).map((memberName) => (
@@ -36,7 +36,7 @@ function FooterLandingPage() {
             </div>
             <div className="help">
                 <h2>
-                    Ayuda
+                    Acerca del proyecto
                 </h2>
                 <div>
                     <a 

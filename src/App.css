@@ -112,6 +112,19 @@ footer {
   flex-shrink: 0; /* Asegura que el footer no se reduzca si hay poco contenido */
 }
 
+@media (max-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+ .footer-landing > div {
+    width: 80%;
+  }
+}
+
 .about-us {
   width: 30%;
 }
@@ -144,6 +157,7 @@ ul li {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 30%;
 }
 
 .help div {
