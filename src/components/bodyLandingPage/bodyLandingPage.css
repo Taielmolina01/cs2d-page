@@ -1,7 +1,7 @@
 .not-signed-background {
   display: flex;
   flex-grow: 1;
-  background-image: url('/csphoto.png');
+  background-image: url('/csphoto.jpg');
   background-size: cover;
   background-repeat: space;
   justify-content: center;
