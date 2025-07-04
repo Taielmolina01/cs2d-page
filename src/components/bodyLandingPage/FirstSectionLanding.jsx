@@ -2,7 +2,7 @@ import './firstSectionLanding.css'
 import { Link } from 'react-router-dom';
 
 function FirstSectionLanding() {
-    const repo = "https://github.com/Taielmolina01/cs-2d-grupo-5-2025c1"
+    const repo = "https://github.com/Taielmolina01/cs-2d-grupo-5-2025c1#Instalación"
     return (
         <section className='not-signed-background container-first-section'>
             <div className="subcontainer-first-section">
